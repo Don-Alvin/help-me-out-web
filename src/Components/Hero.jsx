@@ -2,7 +2,7 @@ import { BsArrowRight } from 'react-icons/bs'
 
 const Hero = () => {
   return (
-    <section className="lg:p-[100px] lg:flex items-center ">
+    <section className="lg:p-[100px] lg:flex items-center bg-white">
         <article className='flex flex-col gap-[48px]'>
             <div className='flex flex-col gap-[20px]'>
               <h1 className='lg:text-[64px] font-bold text-text-header'>Show Them <br /> Don't Just Tell</h1>
