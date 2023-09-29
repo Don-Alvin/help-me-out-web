@@ -29,6 +29,7 @@ export default {
 
 				"text-black": "var(--text-black)",
 				"text-grey": "var(--text-grey)",
+				"text-header": "var(--text-header-black)",
 			},
 			fontFamily: {
 				sora: "var(--sora-family)",
