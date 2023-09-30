@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Header = () => {
   return (
     <header className='lg:px-[100px] py-[12px] shadow sticky top-0 bg-white'>
@@ -7,7 +9,7 @@ const Header = () => {
           <span className='font-work font-medium'>Features</span>
           <span className='font-work font-medium'>How It Works</span>
         </div>
-        <span className="font-sora font-semibold text-[18px] text-primary-main">Get Started</span>
+        <Link to='/auth' className="font-sora font-semibold text-[18px] text-primary-main">Get Started</Link>
       </nav>
     </header>
   )

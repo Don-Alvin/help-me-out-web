@@ -1,10 +1,14 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
-import LandingPage from "./Components/LandingPage"
+import LandingPage from "./Pages/LandingPage"
+import Auth from "./Pages/Auth"
+import Videos from "./Pages/Videos"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<LandingPage />} />
+      <Route path='/auth' element={<Auth />} />
+      <Route path='/videos' element={<Videos />} />
     </Route>
   )
 )
