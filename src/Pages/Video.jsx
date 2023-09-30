@@ -1,11 +1,7 @@
-import { CgProfile } from 'react-icons/cg'
-import { MdKeyboardArrowDown, MdSearch } from 'react-icons/md'
-import VideoCard from '../Components/VideoCard'
-
-const Videos = () => {
+const Video = () => {
   return (
     <main>
-      <header className='shadow'>
+        <header className='shadow'>
         <nav className='px-[100px] py-10 flex justify-between items-center'>
           <img src="images/logo.svg" alt="logo" />
           <aside className='flex items-center gap-2'>
@@ -25,24 +21,8 @@ const Videos = () => {
           </form>
         </aside>
       </header>
-      <article className='px-[100px] py-10 flex flex-col gap-9'>
-        <aside className='flex flex-col gap-6'>
-          <h5 className='font-work text-text-header opacity-80 text-[18px] font-medium'>Recent files</h5>
-          <div className='grid grid-cols-2'>
-            <VideoCard />
-            <VideoCard />
-          </div>
-        </aside>
-        <aside className='flex flex-col gap-6'>
-          <h5 className='font-work text-text-header opacity-80 text-[18px] font-medium'>Files form last week</h5>
-          <div className='grid grid-cols-2'>
-            <VideoCard />
-            <VideoCard />
-          </div>
-        </aside>
-      </article>
     </main>
   )
 }
 
-export default Videos
+export default Video
