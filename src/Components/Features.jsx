@@ -35,7 +35,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:flex">
           <img className="h-full w-full" src="images/videoRepo.svg" alt="features" />
         </div>
       </article>
