@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <section className="lg:p-[100px] flex flex-col items-center gap-[64px] bg-white my-[56px]">
+    <section className="p-4 md:p-6 lg:p-[100px] flex flex-col items-center gap-[64px] bg-white my-[56px]">
       <header className="flex flex-col items-center gap-2">
         <h2 className="text-text-header text-[40px] font-bold font-sora">Features</h2>
         <span className="text-text-grey text-[20px] font-work">Key Highlights of our extension</span>
@@ -35,7 +35,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="hidden md:block">
           <img className="h-full w-full" src="images/videoRepo.svg" alt="features" />
         </div>
       </article>

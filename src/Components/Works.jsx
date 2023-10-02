@@ -1,8 +1,8 @@
 const Works = () => {
   return (
-    <section className="lg:p-[100px] bg-white flex flex-col items-center gap-[59px]">
+    <section className="p-4 md:p-6 lg:p-[100px] bg-white flex flex-col items-center gap-[59px]">
         <h1 className="text-text-header font-sora text-[40px]">How it works</h1>
-        <article className="flex gap-[83px]">
+        <article className="flex flex-col items-start md:flex-row gap-[83px]">
             <div className="flex flex-col gap-7" >
                 <div className="flex flex-col items-center gap-8 w-[358px]">
                     <div className="flex items-center justify-center text-[32px] font-bold font-sora rounded-full  text-white bg-primary-main w-[67px] h-[67px]">1</div>
