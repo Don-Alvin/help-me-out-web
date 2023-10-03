@@ -3,7 +3,7 @@ import { BiMenuAltRight } from 'react-icons/bi'
 
 const Header = () => {
   return (
-    <header className='p-4 md:p-6 lg:px-[100px] py-[12px] shadow sticky top-0 bg-white'>
+    <header className='p-4 md:p-6 lg:px-[100px] py-[12px] sticky top-0 right-0 left-0 shadow bg-white'>
       <nav className="w-full flex items-center justify-between">
         <img src="/images/logo.svg" alt="logo" />
         <div className="hidden md:flex gap-[39px]">

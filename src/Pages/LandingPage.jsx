@@ -7,7 +7,7 @@ import Works from '../Components/Works'
 
 const LandingPage = () => {
   return (
-    <div className='bg-[#f4f6f8]'>
+    <div className='w-full bg-[#f4f6f8]'>
         <Header />
         <main>
           <Hero />
