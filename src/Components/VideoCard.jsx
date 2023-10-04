@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const VideoCard = () => {
   return (
-    <div className='rounded-lg border border-solid flex flex-col gap-6 border-gray-200 p-4 shadow w-[557px]'>
+    <div className='rounded-lg border border-solid flex flex-col gap-6 border-gray-200 p-4 shadow lg:w-[557px]'>
         <div className='w-full'>
             <video className='w-full rounded-lg' src="" controls ></video>
         </div>
