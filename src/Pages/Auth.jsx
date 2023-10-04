@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 const Auth = () => {
   return (
-    <section className='mb-20'>
-      <header className='mb-[38px]'>
+    <section className=' mb-6 md:mb-20'>
+      <header className=' mb-6 md:mb-[38px]'>
         <img className='pl-20 pt-20' src="/images/logo.svg" alt="logo" />
       </header>
-      <article className='w-[475px] mx-auto flex flex-col gap-8 items-center'>
+      <article className='w-[90%] md:w-[475px] mx-auto flex flex-col gap-8 items-center'>
         <aside className='flex flex-col items-center gap-2'>
           <h4 className='font-sora text-[32px] font-bold'>Log in or Sign up</h4>
           <p className='font-work text-[14px] text-text-grey text-center'>Join millions of others in sharing successful<br></br> moves on HelpMeOut.</p>
